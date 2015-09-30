@@ -4,7 +4,7 @@ int sumMove;
 
 void setup()
 {
-  frameRate(800);
+  
   background(0); 
   size(400,400);
   snowday = new Snowflake[600]; 
