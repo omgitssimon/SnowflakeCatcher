@@ -4,7 +4,7 @@ int sumMove;
 
 void setup()
 {
-  
+  //frameRate(15);
   background(0); 
   size(400,400);
   snowday = new Snowflake[600]; 
@@ -53,7 +53,7 @@ class Snowflake
       y = 0;
     }
     else {
-      y = (int)(Math.random()*296);
+      y = (int)(Math.random()*596);
     }
     isMoving = true;
   }
@@ -91,9 +91,9 @@ class Snowflake
 
   void wrap()
   {
-    if(y == 296) { 
+    if(y == 596) { 
       y = 0;
-      x = (int)(Math.random()*301);
+      x = (int)(Math.random()*501);
     }
   }
 
